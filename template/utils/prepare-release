@@ -1,0 +1,13 @@
+#!/bin/bash
+
+error_exit() {
+    echo "Error: $1" >&2
+    echo
+    exit 1
+}
+
+cd "$(dirname "$(readlink -f "$0")")" || {
+    error_exit "Failed to cd to script directory."
+}
+
+MOD_NAME="@ModName-NoSpace@" ./raft-prepare-release/prepare-release "$@"

@@ -1,0 +1,10 @@
+* text eol=lf
+
+*.sln text eol=crlf
+*.*proj text eol=crlf
+*.*proj.* text eol=crlf
+packages.config text eol=crlf
+
+*.gif binary
+*.ttf binary
+*.pdf binary

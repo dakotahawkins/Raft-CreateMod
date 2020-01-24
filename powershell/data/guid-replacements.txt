@@ -1,0 +1,7 @@
+Assembly-Guid
+ModProject-Guid
+Solution-Guid
+SolutionItems-Guid
+SolutionItems-ModResources-Guid
+SolutionItems-Utils-Guid
+SolutionItems-Utils-RaftPrepareRelease-Guid
